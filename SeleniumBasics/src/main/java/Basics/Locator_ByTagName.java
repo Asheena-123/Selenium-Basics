@@ -14,7 +14,7 @@ public class Locator_ByTagName {
         driver.get("https://amazon.in");
         WebElement AllDropdown = driver.findElement(By.tagName("Select")); 
         AllDropdown.click();
-
+       System.out.println("Changes");
 	}
 
 }
